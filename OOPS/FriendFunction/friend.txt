@@ -1,0 +1,7 @@
+A friend function in C++ is a special function that is not a member of a class but still has access to its private and protected members. Friend functions can be useful when you need to allow certain non-member functions or other classes to access the internals of a class without exposing those details through public member functions.
+Key Points about Friend Functions
+
+    1. Access Privileges: Friend functions can access private and protected members of the class in which they are declared as a friend.
+    2. Not a Member: A friend function is not a member of the class. It does not have a this pointer.
+    3. Declaration: The friend function is declared inside the class using the friend keyword.
+    4.Definition: The friend function is defined outside the class, similar to regular functions.
