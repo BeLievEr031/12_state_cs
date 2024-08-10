@@ -1,0 +1,12 @@
+Inheritance is one of the fundamental concepts in Object-Oriented Programming (OOP). It allows a new class (derived or child class) to inherit properties and behaviors (attributes and methods) from an existing class (base or parent class). This promotes code reusability, as common features can be defined in a base class and reused in derived classes.
+
+Key Concepts of Inheritance:
+
+    1. Base (Parent) Class: The class whose properties and methods are inherited by another class.
+
+    2. Derived (Child) Class: The class that inherits properties and methods from the base class.
+
+    3. Access Specifiers:
+        1. Public Inheritance: Members of the base class retain their access level in the derived class.
+        2. Protected Inheritance: Public members of the base class become protected in the derived class.
+        3. Private Inheritance: All members of the base class become private in the derived class.
